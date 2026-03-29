@@ -1,0 +1,23 @@
+# calibrated-summarization
+
+# Core
+torch>=2.1.0
+transformers>=4.35.0
+datasets>=2.14.0
+tokenizers>=0.15.0
+
+# Calibration + stats
+scipy>=1.11.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# Hallucination detection
+bert-score>=0.3.13
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Utilities
+tqdm
+accelerate>=0.24.0    # needed for Trainer on GPU
